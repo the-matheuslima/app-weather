@@ -1,0 +1,70 @@
+body {
+  background-image: url('./components/bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+
+  overflow: hidden;
+
+  width: 100vw;
+  height: 100vh;
+}
+
+.App {
+  text-align: center;
+  background-color: rgba(240, 248, 255, 0.5);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  padding: 1rem;
+  width: 100%;
+}
+
+.app__search {
+  padding: 1rem;
+}
+
+.app__search input {
+  height: 30px;
+  font-size: 1rem;
+  padding: 5px;
+  width: 100%;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+}
+
+.app__weather {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.app__weather-info {
+  padding: 1rem;
+}
+
+.app__weather-info h1 {
+  font-weight: bold;
+}
+
+.app__weather-temp {
+  background-color: rgb(255 255 255 / 55%);
+  backdrop-filter: blur(3px);
+  padding: 1rem 4rem;
+  text-align: center;
+  font-size: 1.2rem;
+  color: black;
+  border-radius: 22px;
+  width: 40%;
+}
+
+.app__weather-temp img {
+  background-color: rgba(0, 0, 0, 0.587);
+  backdrop-filter: blur(3px);
+  border-radius: 10px;
+  padding: 2px;
+}
