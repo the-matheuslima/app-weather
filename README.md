@@ -3,7 +3,7 @@
 https://user-images.githubusercontent.com/96140653/171864184-0f8ce334-802f-4e7e-abe8-508de00e2f75.mp4
 
 <p align="center">
-  View: <a href='app-weather-4a938a' target="_blank"/>app-weather-4a938a</a>
+  View: <a href='https://app-weather-4a938a.netlify.app/' target="_blank"/>app-weather-4a938a.netlify.app</a>
  </p>
 
 <h2>Descrição do Projeto</h2>
